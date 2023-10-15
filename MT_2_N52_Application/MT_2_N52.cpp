@@ -113,7 +113,7 @@ void MT_2_N52::measure()
 	QString filename = homeLocation + "/MTDataBIN_optimus";
 	string file_str = filename.toStdString();
 	const char* file_char = file_str.c_str();
-	ofstream data_file(file_char, ios::app | ios::binary ); // Cambianos al ios::binary esto es iuna pruebaaaaaa
+	ofstream data_file(file_char, ios::app | ios::binary ); // Cambianos al ios::binary
 
 	SetupDisplay();
 	int pad = { 16 };
