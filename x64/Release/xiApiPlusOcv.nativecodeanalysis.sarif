@@ -1,0 +1,2456 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"cv::NormTypes\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/base.hpp"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 39,
+                  "endLine": 384,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"cv::AccessFlag\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 1,
+                  "endLine": 66,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NAEBW4AccessFlag@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"cv::_InputArray::KindFlag\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 1,
+                  "endLine": 266,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NAEBW4KindFlag@_InputArray@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"cv::UMatData::MemoryFlag\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 583,
+                  "startColumn": 1,
+                  "endLine": 583,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NAEBW4MemoryFlag@UMatData@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"cv::MatStep::buf\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1239,
+                  "startColumn": 10,
+                  "endLine": 1239,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"cv::MatStep::buf\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1245,
+                  "startColumn": 10,
+                  "endLine": 1245,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Desbordamiento aritmético: el operador \"*\" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador \"*\" para evitar el desbordamiento (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12,
+                  "endLine": 1874,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Desbordamiento aritmético: el operador \"+\" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador \"+\" para evitar el desbordamiento (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12,
+                  "endLine": 1874,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"cv::Formatter::FormatType\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/operations.hpp"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 16,
+                  "endLine": 431,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?format@cv@@YA?AU?$Ptr@VFormatted@cv@@@1@AEBV_InputArray@1@W4FormatType@Formatter@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Desbordamiento aritmético: el operador \"*\" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador \"*\" para evitar el desbordamiento (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61,
+                  "endLine": 568,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Desbordamiento aritmético: el operador \"+\" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador \"+\" para evitar el desbordamiento (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61,
+                  "endLine": 568,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_IMG_FORMAT\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.hpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 33,
+                  "endLine": 88,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDataFormat@xiAPIplus_Image@@QEAA?AW4XI_IMG_FORMAT@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_EXPOSURE_TIME_SELECTOR_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 3,
+                  "endLine": 86,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetExposureTimeSelector@xiAPIplus_Camera@@QEAA?AW4XI_EXPOSURE_TIME_SELECTOR_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GAIN_SELECTOR_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 3,
+                  "endLine": 191,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetGainSelector@xiAPIplus_Camera@@QEAA?AW4XI_GAIN_SELECTOR_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DOWNSAMPLING_VALUE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 301,
+                  "startColumn": 3,
+                  "endLine": 301,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDownsampling@xiAPIplus_Camera@@QEAA?AW4XI_DOWNSAMPLING_VALUE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DOWNSAMPLING_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 3,
+                  "endLine": 356,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDownsamplingType@xiAPIplus_Camera@@QEAA?AW4XI_DOWNSAMPLING_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TEST_PATTERN_GENERATOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 3,
+                  "endLine": 411,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTestPatternGeneratorSelector@xiAPIplus_Camera@@QEAA?AW4XI_TEST_PATTERN_GENERATOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TEST_PATTERN\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 3,
+                  "endLine": 466,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTestPattern@xiAPIplus_Camera@@QEAA?AW4XI_TEST_PATTERN@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SHUTTER_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 576,
+                  "startColumn": 3,
+                  "endLine": 576,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetShutterType@xiAPIplus_Camera@@QEAA?AW4XI_SHUTTER_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SENSOR_TAP_CNT\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 631,
+                  "startColumn": 3,
+                  "endLine": 631,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorTaps@xiAPIplus_Camera@@QEAA?AW4XI_SENSOR_TAP_CNT@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SENS_DEFFECTS_CORR_LIST_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 916,
+                  "startColumn": 3,
+                  "endLine": 916,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorDefectsCorrectionListSelector@xiAPIplus_Camera@@QEAA?AW4XI_SENS_DEFFECTS_CORR_LIST_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_INTERLINE_EXPOSURE_MODE_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 1783,
+                  "startColumn": 3,
+                  "endLine": 1783,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetInterlineExposureMode@xiAPIplus_Camera@@QEAA?AW4XI_INTERLINE_EXPOSURE_MODE_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_BIN_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 1906,
+                  "startColumn": 3,
+                  "endLine": 1906,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetBinningSelector@xiAPIplus_Camera@@QEAA?AW4XI_BIN_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_BIN_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 1961,
+                  "startColumn": 3,
+                  "endLine": 1961,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetBinningVerticalMode@xiAPIplus_Camera@@QEAA?AW4XI_BIN_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_BIN_PATTERN\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 2171,
+                  "startColumn": 3,
+                  "endLine": 2171,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetBinningHorizontalPattern@xiAPIplus_Camera@@QEAA?AW4XI_BIN_PATTERN@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DEC_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 2281,
+                  "startColumn": 3,
+                  "endLine": 2281,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDecimationSelector@xiAPIplus_Camera@@QEAA?AW4XI_DEC_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DEC_PATTERN\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 2436,
+                  "startColumn": 3,
+                  "endLine": 2436,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDecimationHorizontalPattern@xiAPIplus_Camera@@QEAA?AW4XI_DEC_PATTERN@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SWITCH\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 2818,
+                  "startColumn": 3,
+                  "endLine": 2818,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetBandwidthLimitMode@xiAPIplus_Camera@@QEAA?AW4XI_SWITCH@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_BIT_DEPTH\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 2873,
+                  "startColumn": 3,
+                  "endLine": 2873,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorDataBitDepth@xiAPIplus_Camera@@QEAA?AW4XI_BIT_DEPTH@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_OUTPUT_DATA_PACKING_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3068,
+                  "startColumn": 3,
+                  "endLine": 3068,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDeviceOutputDataPackingType@xiAPIplus_Camera@@QEAA?AW4XI_OUTPUT_DATA_PACKING_TYPE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TEMP_CTRL_MODE_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3141,
+                  "startColumn": 3,
+                  "endLine": 3141,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetCooling@xiAPIplus_Camera@@QEAA?AW4XI_TEMP_CTRL_MODE_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TEMP_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3251,
+                  "startColumn": 3,
+                  "endLine": 3251,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTemperatureSelector@xiAPIplus_Camera@@QEAA?AW4XI_TEMP_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TEMP_ELEMENT_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3591,
+                  "startColumn": 3,
+                  "endLine": 3591,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTemperatureElementSelector@xiAPIplus_Camera@@QEAA?AW4XI_TEMP_ELEMENT_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_CMS_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3707,
+                  "startColumn": 3,
+                  "endLine": 3707,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetColorManagementMode@xiAPIplus_Camera@@QEAA?AW4XI_CMS_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_CMS_INTENT\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3762,
+                  "startColumn": 3,
+                  "endLine": 3762,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetColorManagementIntent@xiAPIplus_Camera@@QEAA?AW4XI_CMS_INTENT@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_COLOR_FILTER_ARRAY\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 3899,
+                  "startColumn": 3,
+                  "endLine": 3899,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorColorFilterArray@xiAPIplus_Camera@@QEAA?AW4XI_COLOR_FILTER_ARRAY@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TRG_SOURCE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5037,
+                  "startColumn": 3,
+                  "endLine": 5037,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTriggerSource@xiAPIplus_Camera@@QEAA?AW4XI_TRG_SOURCE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TRG_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5103,
+                  "startColumn": 3,
+                  "endLine": 5103,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTriggerSelector@xiAPIplus_Camera@@QEAA?AW4XI_TRG_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TRG_OVERLAP\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5158,
+                  "startColumn": 3,
+                  "endLine": 5158,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTriggerOverlap@xiAPIplus_Camera@@QEAA?AW4XI_TRG_OVERLAP@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_PRM_TYPE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5261,
+                  "startColumn": 15,
+                  "endLine": 5261,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTimestamp@xiAPIplus_Camera@@QEAA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GPI_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5315,
+                  "startColumn": 3,
+                  "endLine": 5315,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetGPISelector@xiAPIplus_Camera@@QEAA?AW4XI_GPI_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GPI_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5370,
+                  "startColumn": 3,
+                  "endLine": 5370,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetGPIMode@xiAPIplus_Camera@@QEAA?AW4XI_GPI_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GPO_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5548,
+                  "startColumn": 3,
+                  "endLine": 5548,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetGPOSelector@xiAPIplus_Camera@@QEAA?AW4XI_GPO_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GPO_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5603,
+                  "startColumn": 3,
+                  "endLine": 5603,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetGPOMode@xiAPIplus_Camera@@QEAA?AW4XI_GPO_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_LED_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5658,
+                  "startColumn": 3,
+                  "endLine": 5658,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetLEDSelector@xiAPIplus_Camera@@QEAA?AW4XI_LED_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_LED_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 5713,
+                  "startColumn": 3,
+                  "endLine": 5713,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetLEDMode@xiAPIplus_Camera@@QEAA?AW4XI_LED_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_LENS_FEATURE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 6202,
+                  "startColumn": 3,
+                  "endLine": 6202,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetLensFeatureSelector@xiAPIplus_Camera@@QEAA?AW4XI_LENS_FEATURE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_GenTL_Image_Format_e\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 6635,
+                  "startColumn": 3,
+                  "endLine": 6635,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTransportPixelFormat@xiAPIplus_Camera@@QEAA?AW4XI_GenTL_Image_Format_e@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TRANSPORT_DATA_TARGET_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 6690,
+                  "startColumn": 3,
+                  "endLine": 6690,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTransportDataTarget@xiAPIplus_Camera@@QEAA?AW4XI_TRANSPORT_DATA_TARGET_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SENSOR_OUTPUT_CHANNEL_COUNT\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 6850,
+                  "startColumn": 3,
+                  "endLine": 6850,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorOutputChannelCount@xiAPIplus_Camera@@QEAA?AW4XI_SENSOR_OUTPUT_CHANNEL_COUNT@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_COUNTER_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 6960,
+                  "startColumn": 3,
+                  "endLine": 6960,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetCounterSelector@xiAPIplus_Camera@@QEAA?AW4XI_COUNTER_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_ACQ_TIMING_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 7056,
+                  "startColumn": 3,
+                  "endLine": 7056,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetAcquisitionTimingMode@xiAPIplus_Camera@@QEAA?AW4XI_ACQ_TIMING_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_BP\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 7152,
+                  "startColumn": 3,
+                  "endLine": 7152,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetBufferPolicy@xiAPIplus_Camera@@QEAA?AW4XI_BP@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TS_RST_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 7387,
+                  "startColumn": 3,
+                  "endLine": 7387,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTimestampResetMode@xiAPIplus_Camera@@QEAA?AW4XI_TS_RST_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_TS_RST_SOURCE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 7442,
+                  "startColumn": 3,
+                  "endLine": 7442,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetTimestampResetSource@xiAPIplus_Camera@@QEAA?AW4XI_TS_RST_SOURCE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_PROBE_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 7977,
+                  "startColumn": 3,
+                  "endLine": 7977,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetProbeSelector@xiAPIplus_Camera@@QEAA?AW4XI_PROBE_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SENSOR_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 8310,
+                  "startColumn": 3,
+                  "endLine": 8310,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorMode@xiAPIplus_Camera@@QEAA?AW4XI_SENSOR_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_IMAGE_AREA_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 8686,
+                  "startColumn": 3,
+                  "endLine": 8686,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetImageArea@xiAPIplus_Camera@@QEAA?AW4XI_IMAGE_AREA_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DUAL_ADC_MODE\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 8741,
+                  "startColumn": 3,
+                  "endLine": 8741,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDualADCMode@xiAPIplus_Camera@@QEAA?AW4XI_DUAL_ADC_MODE@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_VERSION\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9067,
+                  "startColumn": 3,
+                  "endLine": 9067,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetVersionSelector@xiAPIplus_Camera@@QEAA?AW4XI_VERSION@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DEBUG_LEVEL\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9236,
+                  "startColumn": 3,
+                  "endLine": 9236,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDebugLevel@xiAPIplus_Camera@@QEAA?AW4XI_DEBUG_LEVEL@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_SENSOR_FEATURE_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9678,
+                  "startColumn": 3,
+                  "endLine": 9678,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetSensorFeatureSelector@xiAPIplus_Camera@@QEAA?AW4XI_SENSOR_FEATURE_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_ACQUISITION_STATUS_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9789,
+                  "startColumn": 3,
+                  "endLine": 9789,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetAcquisitionStatusSelector@xiAPIplus_Camera@@QEAA?AW4XI_ACQUISITION_STATUS_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DP_UNIT_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9890,
+                  "startColumn": 3,
+                  "endLine": 9890,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDataPipeUnitSelector@xiAPIplus_Camera@@QEAA?AW4XI_DP_UNIT_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DP_PROC_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 9945,
+                  "startColumn": 3,
+                  "endLine": 9945,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDataPipeProcSelector@xiAPIplus_Camera@@QEAA?AW4XI_DP_PROC_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_DP_PARAM_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 10000,
+                  "startColumn": 3,
+                  "endLine": 10000,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetDataPipeParamSelector@xiAPIplus_Camera@@QEAA?AW4XI_DP_PARAM_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"XI_USER_SET_SELECTOR\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+                },
+                "region": {
+                  "startLine": 10149,
+                  "startColumn": 3,
+                  "endLine": 10149,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetUserSetSelector@xiAPIplus_Camera@@QEAA?AW4XI_USER_SET_SELECTOR@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '3' está fuera del intervalo del índice '0' válido de '2' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '3' está fuera del intervalo del índice '0' válido de '2' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '2' está fuera del intervalo del índice '0' válido de '1' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '2' está fuera del intervalo del índice '0' válido de '1' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '4' está fuera del intervalo del índice '0' válido de '3' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Bucle For definido incorrecto:  la condición inicial no supera la prueba. No se ejecutó el cuerpo del bucle."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "El índice '4' está fuera del intervalo del índice '0' válido de '3' para el búfer 'this->val' asignado a la pila."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30152.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00C9C1B0 -il C:\\Users\\Baymax\\AppData\\Local\\Temp\\_CL_be16ed52ast -typedil -f ..\\..\\..\\..\\..\\XIMEA\\Examples\\xiApiPlusOcv\\xiApiPlusOcv.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930152 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I .\\GeneratedFiles -I .\\GeneratedFiles\\Release -I GeneratedFiles\\Release -I GeneratedFiles -I C:\\XIMEA\\API -I C:\\opencv\\build\\include -I .\\GeneratedFiles -I . -I .\\GeneratedFiles\\Release -I \\..\\..\\include -I C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\\\include -I C:\\XIMEA\\Examples\\xiApiPlusOcv -I C:\\Users\\Baymax\\AppData\\Local\\Temp\\tr2qdofe.dz1 -I C:\\Qt2\\5.15.2\\msvc2019_64\\include -I C:\\Qt2\\5.15.2\\msvc2019_64\\include\\QtWidgets -I C:\\Qt2\\5.15.2\\msvc2019_64\\include\\QtGui -I C:\\Qt2\\5.15.2\\msvc2019_64\\include\\QtANGLE -I C:\\Qt2\\5.15.2\\msvc2019_64\\include\\QtCore -I C:\\Users\\Baymax\\AppData\\Local\\Temp\\tr2qdofe.dz1 -I /include -I C:\\Qt2\\5.15.2\\msvc2019_64\\mkspecs\\win32-msvc -I .\\GeneratedFiles\\Release -I .\\GeneratedFiles -nologo -W 1 -diagnostics:column -GF -Og -Oi -Ot -Oy -DCODE_ANALYSIS -D_WINDOWS -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -Fox64\\Release\\xiApiPlusOcv.obj -Fdx64\\Release\\vc142.pdb -external:W 1 -Gd -analyze:projectdirectory C:\\Users\\Baymax\\Desktop\\MT_optimus\\MT_2_N52_Application -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:referenceBinding -Zc:__cplusplus -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 0000000000000910",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/base.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a9d585be225268fed000911a4416a77a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c8176d954a0cde3e04c9142126b39a9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a1e732d54a788cd963c32b0c7c0bd565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/operations.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7e29fc08b0ac4ca2bdcfc0c510cb99a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad739b952df4612830537ff8ed1a5ef0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "102aed248096c5130a750460775439a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/XIMEA/Examples/xiApiPlusOcv/xiApiPlusOcv.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad945c4c820c158f7ce508d3af03f59c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Baymax/Desktop/MT_optimus/MT_2_N52_Application/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "522264d67f089bf4d5f12443da7bb8e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/xiapi.h"
+          },
+          "hashes": {
+            "md5": "b96d698404f34bff4f7e681bca0fc07a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/m3identify.h"
+          },
+          "hashes": {
+            "md5": "c699544f5d73bf111322fd42b27df6ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core.hpp"
+          },
+          "hashes": {
+            "md5": "59a74313cfe8e61544c04568c1cc2cdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "md5": "977be8f461ff993b691c0463f2149ce5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "md5": "848c95f2ff3b89d7d240f0d5bd0ce795"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "md5": "4a49d649a0b7578208733959e8158fed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "md5": "4af82a90c7534994a18798199b9af6e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "md5": "1a2317de7a0292224ac5bc4cc7105000"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "md5": "5e55536b7431fb1179d5a334ab18c168"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "md5": "20a35ead62ae6a7d27c5cdaf6fcd3b3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "md5": "c8fd59164b24f28d2e476c76ea04440e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "md5": "d81a08ab92a13560c7d3d5c54a23b600"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "md5": "9dd87b2eecf5ff924bfbb4d3b0eff6db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "md5": "9b4b650b0ef2284fdf7a684fa058095a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "md5": "f2590a08e304472945a1f8f9908e3259"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "md5": "0baec9d3f18c91cd153e37312109b44c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "md5": "4f70662bb674c9e519e8df6a676b7cb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "md5": "b83ce95edbd524cdb43c073a483379d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "md5": "e1f92a1cf1f70cf4cd3fa7f11fd5c2d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "md5": "b910da620ce8d732f0194531bbc40028"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "md5": "d0b2d417aa6cccd1bae6ec19215da17f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "md5": "e69559d2017e1f67a5f34cdc9fbede0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/highgui/highgui.hpp"
+          },
+          "hashes": {
+            "md5": "89bd13383953b20e9e0ee0be378c2a4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "md5": "949aacc7416b028785d8539187ef4c20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "md5": "3362466fdfb56d5424820e5b2b7b01d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/baymax/desktop/mt_optimus/mt_2_n52_application/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "md5": "38a9f545bb5f3efaa8468f8fb7656c9e"
+          }
+        }
+      ]
+    }
+  ]
+}
